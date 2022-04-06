@@ -6,6 +6,7 @@ Here's the tutorial I followed originally:
 https://www.youtube.com/watch?v=cZzf1FQQFA0
 
 Changelog: 4-5-22 8:30pm CST
+
 TMP Essentials (MainMenu)
 Buttons: Main Menu - Quit Button
 
