@@ -5,21 +5,144 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637848001075249196
-    m_Hash: 1964067419
+      ticks: 637848130699959901
+    m_Hash: 2212604506
   m_LockFileStatus:
     m_FilePath: E:/Unity Projects/Test/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637848001326720728
-    m_Hash: 2848750632
+      ticks: 637848130838822430
+    m_Hash: 2002339007
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
   m_Packages:
     m_ResolvedPackages:
+    - packageId: com.unity.localization@0.8.1-preview
+      testable: 0
+      isDirectDependency: 1
+      version: 0.8.1-preview
+      source: 1
+      resolvedPath: E:\Unity Projects\Test\Library\PackageCache\com.unity.localization@0.8.1-preview
+      assetPath: Packages/com.unity.localization
+      name: com.unity.localization
+      displayName: Localization
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: Preview of player localization system. Provides tools for localizing
+        your built application.
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 0.2.1-preview
+        - 0.2.2-preview
+        - 0.2.3-preview
+        - 0.3.1-preview
+        - 0.3.2-preview
+        - 0.4.0-preview
+        - 0.5.0-preview
+        - 0.5.1-preview
+        - 0.6.0-preview
+        - 0.6.1-preview
+        - 0.7.1-preview
+        - 0.8.0-preview
+        - 0.8.1-preview
+        - 0.9.0-preview
+        - 0.10.0-preview
+        - 0.11.0-preview
+        - 0.11.1-preview
+        - 1.0.0-pre.8
+        - 1.0.0-pre.9
+        - 1.0.0-pre.10
+        - 1.0.0
+        - 1.0.1
+        - 1.0.2
+        - 1.0.3
+        - 1.0.4
+        - 1.0.5
+        - 1.1.0
+        - 1.1.1
+        - 1.2.1
+        compatible:
+        - 0.2.1-preview
+        - 0.2.2-preview
+        - 0.2.3-preview
+        - 0.3.1-preview
+        - 0.3.2-preview
+        - 0.4.0-preview
+        - 0.5.0-preview
+        - 0.5.1-preview
+        - 0.6.0-preview
+        - 0.6.1-preview
+        - 0.7.1-preview
+        - 0.8.0-preview
+        - 0.8.1-preview
+        - 0.9.0-preview
+        - 0.10.0-preview
+        - 0.11.0-preview
+        - 0.11.1-preview
+        - 1.0.0-pre.8
+        - 1.0.0-pre.9
+        - 1.0.0-pre.10
+        - 1.0.0
+        - 1.0.1
+        - 1.0.2
+        - 1.0.3
+        - 1.0.4
+        - 1.0.5
+        - 1.1.0
+        - 1.1.1
+        - 1.2.1
+        verified: 
+      dependencies:
+      - name: com.unity.addressables
+        version: 1.7.5
+      - name: com.unity.nuget.newtonsoft-json
+        version: 2.0.0
+      resolvedDependencies:
+      - name: com.unity.addressables
+        version: 1.7.5
+      - name: com.unity.scriptablebuildpipeline
+        version: 1.5.10
+      - name: com.unity.modules.assetbundle
+        version: 1.0.0
+      - name: com.unity.modules.unitywebrequest
+        version: 1.0.0
+      - name: com.unity.modules.unitywebrequestassetbundle
+        version: 1.0.0
+      - name: com.unity.nuget.newtonsoft-json
+        version: 2.0.0
+      keywords:
+      - localization
+      - locale
+      - language
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637334460030000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.cds.internal.unity3d.com/unity/com.unity.localization.git
+        revision: 791a470597534ca7222c6ba4927509d54dc3d24a
+        path: 
     - packageId: com.unity.2d.animation@5.1.0
       testable: 0
       isDirectDependency: 1
@@ -1490,6 +1613,102 @@ m_PackageAssets:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/com.unity.timeline.git
         revision: 527e4364e28028f20f04fc51db671eb4bb910a26
+        path: 
+    - packageId: com.unity.toolchain.win-x86_64-linux-x86_64@2.0.0
+      testable: 0
+      isDirectDependency: 1
+      version: 2.0.0
+      source: 1
+      resolvedPath: E:\Unity Projects\Test\Library\PackageCache\com.unity.toolchain.win-x86_64-linux-x86_64@2.0.0
+      assetPath: Packages/com.unity.toolchain.win-x86_64-linux-x86_64
+      name: com.unity.toolchain.win-x86_64-linux-x86_64
+      displayName: Toolchain Win Linux x64
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: Cross-compilation toolchain to build player target Linux x86_64
+        on host Windows x86_64
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 0.1.4-preview
+        - 0.1.5-preview
+        - 0.1.6-preview
+        - 0.1.7-preview
+        - 0.1.8-preview
+        - 0.1.9-preview
+        - 0.1.10-preview
+        - 0.1.11-preview
+        - 0.1.13-preview
+        - 0.1.14-preview
+        - 0.1.15-preview
+        - 0.1.16-preview
+        - 0.1.17-preview
+        - 0.1.18-preview
+        - 0.1.19-preview
+        - 0.1.20-preview
+        - 0.1.21-preview
+        - 1.0.0
+        - 2.0.0
+        compatible:
+        - 0.1.4-preview
+        - 0.1.5-preview
+        - 0.1.6-preview
+        - 0.1.7-preview
+        - 0.1.8-preview
+        - 0.1.9-preview
+        - 0.1.10-preview
+        - 0.1.11-preview
+        - 0.1.13-preview
+        - 0.1.14-preview
+        - 0.1.15-preview
+        - 0.1.16-preview
+        - 0.1.17-preview
+        - 0.1.18-preview
+        - 0.1.19-preview
+        - 0.1.20-preview
+        - 0.1.21-preview
+        - 1.0.0
+        - 2.0.0
+        verified: 
+      dependencies:
+      - name: com.unity.sysroot
+        version: 2.0.0
+      - name: com.unity.sysroot.linux-x86_64
+        version: 2.0.0
+      resolvedDependencies:
+      - name: com.unity.sysroot
+        version: 2.0.0
+      - name: com.unity.sysroot.linux-x86_64
+        version: 2.0.0
+      keywords:
+      - toolchain
+      - windows
+      - linux
+      - cross-compilation
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637847031850000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.com/Unity-Technologies/com.unity.sysroot.git
+        revision: e6c53e52ad77e8d1a6cfc2707e348f9e4799c595
         path: 
     - packageId: com.unity.ugui@1.0.0
       testable: 0
@@ -3296,6 +3515,159 @@ m_PackageAssets:
         url: 
         revision: 
         path: 
+    - packageId: com.unity.sysroot@2.0.0
+      testable: 0
+      isDirectDependency: 0
+      version: 2.0.0
+      source: 1
+      resolvedPath: E:\Unity Projects\Test\Library\PackageCache\com.unity.sysroot@2.0.0
+      assetPath: Packages/com.unity.sysroot
+      name: com.unity.sysroot
+      displayName: Sysroot Base
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: This is the base sysroot package required by all sysroot and toolchain
+        packages
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 0.1.7-preview
+        - 0.1.8-preview
+        - 0.1.9-preview
+        - 0.1.10-preview
+        - 0.1.11-preview
+        - 0.1.12-preview
+        - 0.1.14-preview
+        - 0.1.15-preview
+        - 0.1.16-preview
+        - 0.1.17-preview
+        - 0.1.18-preview
+        - 0.1.19-preview
+        - 1.0.0
+        - 2.0.0
+        compatible:
+        - 0.1.7-preview
+        - 0.1.8-preview
+        - 0.1.9-preview
+        - 0.1.10-preview
+        - 0.1.11-preview
+        - 0.1.12-preview
+        - 0.1.14-preview
+        - 0.1.15-preview
+        - 0.1.16-preview
+        - 0.1.17-preview
+        - 0.1.18-preview
+        - 0.1.19-preview
+        - 1.0.0
+        - 2.0.0
+        verified: 
+      dependencies: []
+      resolvedDependencies: []
+      keywords:
+      - unity
+      - linux
+      - sysroot
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637847030720000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.com/Unity-Technologies/com.unity.sysroot.git
+        revision: e6c53e52ad77e8d1a6cfc2707e348f9e4799c595
+        path: 
+    - packageId: com.unity.sysroot.linux-x86_64@2.0.0
+      testable: 0
+      isDirectDependency: 0
+      version: 2.0.0
+      source: 1
+      resolvedPath: E:\Unity Projects\Test\Library\PackageCache\com.unity.sysroot.linux-x86_64@2.0.0
+      assetPath: Packages/com.unity.sysroot.linux-x86_64
+      name: com.unity.sysroot.linux-x86_64
+      displayName: Sysroot Linux x64
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: Sysroot used to build unity player for linux x86_64
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 0.1.6-preview
+        - 0.1.7-preview
+        - 0.1.8-preview
+        - 0.1.9-preview
+        - 0.1.10-preview
+        - 0.1.11-preview
+        - 0.1.12-preview
+        - 0.1.13-preview
+        - 0.1.14-preview
+        - 0.1.15-preview
+        - 1.0.0
+        - 2.0.0
+        compatible:
+        - 0.1.6-preview
+        - 0.1.7-preview
+        - 0.1.8-preview
+        - 0.1.9-preview
+        - 0.1.10-preview
+        - 0.1.11-preview
+        - 0.1.12-preview
+        - 0.1.13-preview
+        - 0.1.14-preview
+        - 0.1.15-preview
+        - 1.0.0
+        - 2.0.0
+        verified: 
+      dependencies:
+      - name: com.unity.sysroot
+        version: 2.0.0
+      resolvedDependencies:
+      - name: com.unity.sysroot
+        version: 2.0.0
+      keywords:
+      - unity
+      - linux
+      - sysroot
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637847030880000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.com/Unity-Technologies/com.unity.sysroot.git
+        revision: e6c53e52ad77e8d1a6cfc2707e348f9e4799c595
+        path: 
     - packageId: com.unity.ext.nunit@1.0.6
       testable: 0
       isDirectDependency: 0
@@ -3681,6 +4053,497 @@ m_PackageAssets:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/2d.git
         revision: 6f9c488e4d487ead34ee4d516f0a2f4a911a8b25
+        path: 
+    - packageId: com.unity.addressables@1.7.5
+      testable: 0
+      isDirectDependency: 0
+      version: 1.7.5
+      source: 1
+      resolvedPath: E:\Unity Projects\Test\Library\PackageCache\com.unity.addressables@1.7.5
+      assetPath: Packages/com.unity.addressables
+      name: com.unity.addressables
+      displayName: Addressables
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: 'The Addressable Asset System allows the developer to ask for
+        an asset via its address. Once an asset (e.g. a prefab) is marked "addressable",
+        it generates an address which can be called from anywhere. Wherever the asset
+        resides (local or remote), the system will locate it and its dependencies,
+        then return it.
+
+
+        Use ''Window->Asset Management->Addressables''
+        to begin working with the system.
+
+
+        Addressables use asynchronous
+        loading to support loading from any location with any collection of dependencies.
+        Whether you have been using direct references, traditional asset bundles,
+        or Resource folders, addressables provide a simpler way to make your game
+        more dynamic. Addressables simultaneously opens up the world of asset bundles
+        while managing all the complexity.
+
+
+        For usage samples, see github.com/Unity-Technologies/Addressables-Sample'
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 0.0.8-preview
+        - 0.0.12-preview
+        - 0.0.15-preview
+        - 0.0.16-preview
+        - 0.0.18-preview
+        - 0.0.22-preview
+        - 0.0.26-preview
+        - 0.0.27-preview
+        - 0.1.2-preview
+        - 0.2.1-preview
+        - 0.2.2-preview
+        - 0.3.5-preview
+        - 0.4.6-preview
+        - 0.4.8-preview
+        - 0.5.2-preview
+        - 0.5.3-preview
+        - 0.6.6-preview
+        - 0.6.7-preview
+        - 0.6.8-preview
+        - 0.7.4-preview
+        - 0.7.5-preview
+        - 0.8.4-preview
+        - 0.8.6-preview
+        - 1.1.3-preview
+        - 1.1.4-preview
+        - 1.1.5
+        - 1.1.7
+        - 1.1.9
+        - 1.1.10
+        - 1.2.2
+        - 1.2.3
+        - 1.2.4
+        - 1.3.3
+        - 1.3.8
+        - 1.4.0
+        - 1.5.0
+        - 1.5.1
+        - 1.6.0
+        - 1.6.2
+        - 1.7.4
+        - 1.7.5
+        - 1.8.3
+        - 1.8.4
+        - 1.8.5
+        - 1.9.2
+        - 1.10.0
+        - 1.11.2
+        - 1.12.0
+        - 1.13.1
+        - 1.14.2
+        - 1.15.1
+        - 1.16.1
+        - 1.16.6
+        - 1.16.7
+        - 1.16.8
+        - 1.16.10
+        - 1.16.12
+        - 1.16.13
+        - 1.16.15
+        - 1.16.16
+        - 1.16.19
+        - 1.17.0-preview
+        - 1.17.2-preview
+        - 1.17.4-preview
+        - 1.17.5-preview
+        - 1.17.6-preview
+        - 1.17.13
+        - 1.17.15
+        - 1.17.17
+        - 1.18.2
+        - 1.18.4
+        - 1.18.9
+        - 1.18.11
+        - 1.18.13
+        - 1.18.15
+        - 1.18.16
+        - 1.18.19
+        - 1.19.4
+        - 1.19.6
+        - 1.19.9
+        - 1.19.11
+        - 1.19.13
+        - 1.19.14
+        - 1.19.15
+        - 1.19.17
+        - 1.19.18
+        - 1.19.19
+        compatible:
+        - 0.0.8-preview
+        - 0.0.12-preview
+        - 0.0.15-preview
+        - 0.0.16-preview
+        - 0.0.18-preview
+        - 0.0.22-preview
+        - 0.0.26-preview
+        - 0.0.27-preview
+        - 0.1.2-preview
+        - 0.2.1-preview
+        - 0.2.2-preview
+        - 0.3.5-preview
+        - 0.4.6-preview
+        - 0.4.8-preview
+        - 0.5.2-preview
+        - 0.5.3-preview
+        - 0.6.6-preview
+        - 0.6.7-preview
+        - 0.6.8-preview
+        - 0.7.4-preview
+        - 0.7.5-preview
+        - 0.8.4-preview
+        - 0.8.6-preview
+        - 1.1.3-preview
+        - 1.1.4-preview
+        - 1.1.5
+        - 1.1.7
+        - 1.1.9
+        - 1.1.10
+        - 1.2.2
+        - 1.2.3
+        - 1.2.4
+        - 1.3.3
+        - 1.3.8
+        - 1.4.0
+        - 1.5.0
+        - 1.5.1
+        - 1.6.0
+        - 1.6.2
+        - 1.7.4
+        - 1.7.5
+        - 1.8.3
+        - 1.8.4
+        - 1.8.5
+        - 1.9.2
+        - 1.10.0
+        - 1.11.2
+        - 1.12.0
+        - 1.13.1
+        - 1.14.2
+        - 1.15.1
+        - 1.16.1
+        - 1.16.6
+        - 1.16.7
+        - 1.16.8
+        - 1.16.10
+        - 1.16.12
+        - 1.16.13
+        - 1.16.15
+        - 1.16.16
+        - 1.16.19
+        - 1.17.0-preview
+        - 1.17.2-preview
+        - 1.17.4-preview
+        - 1.17.5-preview
+        - 1.17.6-preview
+        - 1.17.13
+        - 1.17.15
+        - 1.17.17
+        - 1.18.2
+        - 1.18.4
+        - 1.18.9
+        - 1.18.11
+        - 1.18.13
+        - 1.18.15
+        - 1.18.16
+        - 1.18.19
+        - 1.19.4
+        - 1.19.6
+        - 1.19.9
+        - 1.19.11
+        - 1.19.13
+        - 1.19.14
+        - 1.19.15
+        - 1.19.17
+        - 1.19.18
+        - 1.19.19
+        verified: 1.18.19
+      dependencies:
+      - name: com.unity.scriptablebuildpipeline
+        version: 1.5.10
+      - name: com.unity.modules.assetbundle
+        version: 1.0.0
+      - name: com.unity.modules.unitywebrequest
+        version: 1.0.0
+      - name: com.unity.modules.unitywebrequestassetbundle
+        version: 1.0.0
+      resolvedDependencies:
+      - name: com.unity.scriptablebuildpipeline
+        version: 1.5.10
+      - name: com.unity.modules.assetbundle
+        version: 1.0.0
+      - name: com.unity.modules.unitywebrequest
+        version: 1.0.0
+      - name: com.unity.modules.unitywebrequestassetbundle
+        version: 1.0.0
+      keywords:
+      - asset
+      - resources
+      - bundle
+      - bundles
+      - assetbundles
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637211794480000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.cds.internal.unity3d.com/unity/Addressables.git
+        revision: b0aa62836dd7b7afe2b514bcfd135d23fd914cfb
+        path: 
+    - packageId: com.unity.nuget.newtonsoft-json@2.0.0
+      testable: 0
+      isDirectDependency: 0
+      version: 2.0.0
+      source: 1
+      resolvedPath: E:\Unity Projects\Test\Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0
+      assetPath: Packages/com.unity.nuget.newtonsoft-json
+      name: com.unity.nuget.newtonsoft-json
+      displayName: Newtonsoft Json
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: 'Newtonsoft Json for use in Unity projects and Unity packages.
+        Currently synced to version 12.0.2.
+
+
+        This package is used for advanced
+        json serialization and deserialization. Most Unity users will be better suited
+        using the existing json tools built into Unity.
+
+        To avoid assembly
+        clashes, please use this package if you intend to use Newtonsoft Json.'
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.0.0-preview.2
+        - 1.0.0-preview.3
+        - 1.0.0-preview.4
+        - 1.0.1-preview.1
+        - 1.1.2
+        - 2.0.0-preview
+        - 2.0.0-preview.1
+        - 2.0.0-preview.2
+        - 2.0.0
+        - 2.0.1-preview.1
+        - 2.0.2
+        - 3.0.1
+        - 3.0.2
+        compatible:
+        - 1.0.0-preview.2
+        - 1.0.0-preview.3
+        - 1.0.0-preview.4
+        - 1.0.1-preview.1
+        - 1.1.2
+        - 2.0.0-preview
+        - 2.0.0-preview.1
+        - 2.0.0-preview.2
+        - 2.0.0
+        - 2.0.1-preview.1
+        - 2.0.2
+        - 3.0.1
+        - 3.0.2
+        verified: 2.0.2
+      dependencies: []
+      resolvedDependencies: []
+      keywords: []
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637237898320000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.cds.internal.unity3d.com/unity/com.unity.nuget.newtonsoft-json.git
+        revision: d2fd6ed876261bbd82f59199ad711e7667bf633a
+        path: 
+    - packageId: com.unity.scriptablebuildpipeline@1.5.10
+      testable: 0
+      isDirectDependency: 0
+      version: 1.5.10
+      source: 1
+      resolvedPath: E:\Unity Projects\Test\Library\PackageCache\com.unity.scriptablebuildpipeline@1.5.10
+      assetPath: Packages/com.unity.scriptablebuildpipeline
+      name: com.unity.scriptablebuildpipeline
+      displayName: Scriptable Build Pipeline
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: The Scriptable Build Pipeline moves the asset bundle build pipeline
+        to C#.  Use the pre-defined build flows, or create your own using the divided
+        up APIs.  This system improves build time, fixes incremental build, and provides
+        greater flexibility.
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 0.0.5-preview
+        - 0.0.6-preview
+        - 0.0.8-preview
+        - 0.0.9-preview
+        - 0.0.10-preview
+        - 0.0.14-preview
+        - 0.0.15-preview
+        - 0.1.0-preview
+        - 0.2.0-preview
+        - 1.0.1-preview
+        - 1.1.0-preview
+        - 1.1.1-preview
+        - 1.2.1-preview
+        - 1.3.5-preview
+        - 1.4.1-preview
+        - 1.5.0-preview
+        - 1.5.1
+        - 1.5.2
+        - 1.5.4
+        - 1.5.6
+        - 1.5.10
+        - 1.6.3-preview
+        - 1.6.4-preview
+        - 1.6.5-preview
+        - 1.7.2
+        - 1.7.3
+        - 1.8.2
+        - 1.8.4
+        - 1.8.6
+        - 1.9.0
+        - 1.10.0
+        - 1.11.1
+        - 1.11.2
+        - 1.12.0
+        - 1.13.1
+        - 1.14.0
+        - 1.14.1
+        - 1.15.1
+        - 1.15.2
+        - 1.16.1
+        - 1.17.0
+        - 1.18.0
+        - 1.19.0
+        - 1.19.1
+        - 1.19.2
+        - 1.19.3
+        - 1.19.4
+        - 1.19.5
+        - 1.19.6
+        compatible:
+        - 0.0.5-preview
+        - 0.0.6-preview
+        - 0.0.8-preview
+        - 0.0.9-preview
+        - 0.0.10-preview
+        - 0.0.14-preview
+        - 0.0.15-preview
+        - 0.1.0-preview
+        - 0.2.0-preview
+        - 1.0.1-preview
+        - 1.1.0-preview
+        - 1.1.1-preview
+        - 1.2.1-preview
+        - 1.3.5-preview
+        - 1.4.1-preview
+        - 1.5.0-preview
+        - 1.5.1
+        - 1.5.2
+        - 1.5.4
+        - 1.5.6
+        - 1.5.10
+        - 1.6.3-preview
+        - 1.6.4-preview
+        - 1.6.5-preview
+        - 1.7.2
+        - 1.7.3
+        - 1.8.2
+        - 1.8.4
+        - 1.8.6
+        - 1.9.0
+        - 1.10.0
+        - 1.11.1
+        - 1.11.2
+        - 1.12.0
+        - 1.13.1
+        - 1.14.0
+        - 1.14.1
+        - 1.15.1
+        - 1.15.2
+        - 1.16.1
+        - 1.17.0
+        - 1.18.0
+        - 1.19.0
+        - 1.19.1
+        - 1.19.2
+        - 1.19.3
+        - 1.19.4
+        - 1.19.5
+        - 1.19.6
+        verified: 1.19.6
+      dependencies: []
+      resolvedDependencies: []
+      keywords:
+      - build
+      - bundle
+      - bundles
+      - assetbundles
+      - cache
+      - server
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637202291410000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.cds.internal.unity3d.com/unity/Addressables.git
+        revision: 6b79f542cec417e4c7933137d0beb0e673774646
         path: 
   m_LocalPackages:
     m_LocalFileStatus: []

@@ -55,3 +55,15 @@ Added Packages
 Removed Library Folder to save space
 
 + FUNCTIONING Language Menu
+
+
+Changelog: 4-6-22 6:25pm CST
+
+ADDED/REMOVED:
++ Main Menu Title
++ French Language / Button
+
+CHANGED:
++ Main Menu Button Location
++ English - Spanish Button
++ Size of all the buttons
