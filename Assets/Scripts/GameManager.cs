@@ -43,6 +43,9 @@ public class GameManager : MonoBehaviour
         currentMultiplier = 1;
 
         totalNotes = FindObjectsOfType<NoteObject>().Length;
+
+        QualitySettings.vSyncCount = 1;
+        Application.targetFrameRate = 120;
     }
 
     // Update is called once per frame

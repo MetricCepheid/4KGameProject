@@ -14,3 +14,17 @@ Buttons: Main Menu - Quit Button
 - Removed Extra Unused Scenes
 
 Moved Rhythm Game scripts into own folder
+
+
+Changelog: 4-5-22 9:30pm CST
+
+Added Options Menu
+- Button that controls VSync (No actual function yet)
+
+Added FPS Counter
+- FPS Script
+
+Added Menu Button at end of songs
+- Goes back to the main menu
+
+Updated README
