@@ -28,3 +28,30 @@ Added Menu Button at end of songs
 - Goes back to the main menu
 
 Updated README
+
+
+Changelog: 4-6-22 12:21am CST
+
+Added Retry Button
+- Reloads Music Scene
+
+Moved Menu Button on Results Screen
+- Moved to the right side
+
+Main Menu changes
+- Size of buttons
+- Location of buttons
+
+Added Multiple Languages + Localization
+- English
+- Spanish
+
+Settings Menu
+- Language Button
+
+Added Packages
+- Lean Localization
+
+Removed Library Folder to save space
+
++ FUNCTIONING Language Menu
