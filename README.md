@@ -6,7 +6,6 @@ Here's the tutorial I followed originally:
 https://www.youtube.com/watch?v=cZzf1FQQFA0
 
 ## **Changelog: 4-5-22 8:30pm CST**
-
 TMP Essentials (MainMenu)
 Buttons: Main Menu - Quit Button
 
@@ -17,7 +16,6 @@ Moved Rhythm Game scripts into own folder
 
 
 ## **Changelog: 4-5-22 9:30pm CST**
-
 Added Options Menu
 - Button that controls VSync (No actual function yet)
 
@@ -31,7 +29,6 @@ Updated README
 
 
 ## **Changelog: 4-6-22 12:21am CST**
-
 Added Retry Button
 - Reloads Music Scene
 
@@ -58,7 +55,6 @@ Removed Library Folder to save space
 
 
 ## **Changelog: 4-6-22 6:40pm CST**
-
 ADDED/REMOVED:
 + Main Menu Title
 + French Language / Button
@@ -75,3 +71,11 @@ ADDED/REMOVED:
 
 CHANGED:
 + Updated Localization Project
+
+## **Changelogs 4-7-22 6:55pm CST**
+ADDED/REMOVED:
++ Video Test and Scene
++ Fullscreen Option
++ Hidden Logs Button
++ Resolution/Fullscreen Script
++ Video(s) folder (WITH VIDEOS)

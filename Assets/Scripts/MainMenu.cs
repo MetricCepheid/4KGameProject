@@ -2,19 +2,27 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEditor;
-using UnityEditor.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
+    public void Start()
+    {
+        Lean.Localization.LeanLocalization.SetCurrentLanguageAll("English");
+    }
+
     public void PlayGame()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene("Start");
     }
 
     public void MainMenuLoad()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene("StartMenu");
+    }
+
+    public void VideoTest()
+    {
+        SceneManager.LoadScene("Video");
     }
 
     public void RetryButton()
@@ -24,7 +32,6 @@ public class MainMenu : MonoBehaviour
 
     public void QuitGame()
     {
-        EditorApplication.Exit(0);
         Application.Quit();
     }
 }

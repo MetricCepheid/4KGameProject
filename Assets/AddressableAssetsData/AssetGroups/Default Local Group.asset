@@ -16,7 +16,14 @@ MonoBehaviour:
   m_Data:
     m_SerializedData: []
   m_GUID: b49637dfc9a91ae469fb91797dbd8373
-  m_SerializeEntries: []
+  m_SerializeEntries:
+  - m_GUID: 293d8e3fbf13b76479b9dffd09b121bc
+    m_Address: Assets/Videos
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_mainAssetType: 
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 77f1decbaf12cde48ba2a43980d56544, type: 2}
   m_SchemaSet:
