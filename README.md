@@ -5,7 +5,7 @@ I followed a 5 part tutorial and now I am wanting to add more onto it.
 Here's the tutorial I followed originally:
 https://www.youtube.com/watch?v=cZzf1FQQFA0
 
-Changelog: 4-5-22 8:30pm CST
+## **Changelog: 4-5-22 8:30pm CST**
 
 TMP Essentials (MainMenu)
 Buttons: Main Menu - Quit Button
@@ -16,7 +16,7 @@ Buttons: Main Menu - Quit Button
 Moved Rhythm Game scripts into own folder
 
 
-Changelog: 4-5-22 9:30pm CST
+## **Changelog: 4-5-22 9:30pm CST**
 
 Added Options Menu
 - Button that controls VSync (No actual function yet)
@@ -30,7 +30,7 @@ Added Menu Button at end of songs
 Updated README
 
 
-Changelog: 4-6-22 12:21am CST
+## **Changelog: 4-6-22 12:21am CST**
 
 Added Retry Button
 - Reloads Music Scene
@@ -57,7 +57,7 @@ Removed Library Folder to save space
 + FUNCTIONING Language Menu
 
 
-Changelog: 4-6-22 6:40pm CST
+## **Changelog: 4-6-22 6:40pm CST**
 
 ADDED/REMOVED:
 + Main Menu Title
