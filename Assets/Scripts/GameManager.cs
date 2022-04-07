@@ -39,7 +39,9 @@ public class GameManager : MonoBehaviour
     {
         instance = this;
 
-        scoreText.text = "Score: 0";
+        var ScoreH = Lean.Localization.LeanLocalization.GetTranslationText("Score");
+
+        scoreText.text = ScoreH + " 0";
         currentMultiplier = 1;
 
         totalNotes = FindObjectsOfType<NoteObject>().Length;
@@ -110,6 +112,9 @@ public class GameManager : MonoBehaviour
 	{
         Debug.Log("Hit On Time");
 
+        var ScoreH = Lean.Localization.LeanLocalization.GetTranslationText("Score");
+        var MultiH = Lean.Localization.LeanLocalization.GetTranslationText("Multiplier");
+
         if(currentMultiplier - 1 < multiplierThresholds.Length)
 		{
             multiplierTracker++;
@@ -121,10 +126,10 @@ public class GameManager : MonoBehaviour
             }
         }
 
-        multiText.text = "Multiplier: x" + currentMultiplier;
+        multiText.text = MultiH + currentMultiplier;
 
         //currentScore += scorePerNote * currentMultiplier;
-        scoreText.text = "Score: " + currentScore;
+        scoreText.text = ScoreH + currentScore;
 	}
 
     public void NormalHit()

@@ -68,3 +68,10 @@ CHANGED:
 + Main Menu Button Location
 + English - Spanish - French Button(s)
 + Size of all the buttons
+
+## **Changelog: 4-6-22 9:35pm CST**
+ADDED/REMOVED:
++ Completely updated Rhythm Game Scene with language localization
+
+CHANGED:
++ Updated Localization Project
