@@ -79,3 +79,15 @@ ADDED/REMOVED:
 + Hidden Logs Button
 + Resolution/Fullscreen Script
 + Video(s) folder (WITH VIDEOS)
+
+## **Changelogs 4-7-22pm CST**
+ADDED:
++ Play button in Video Scene
+
+CHANGED:
++ Fixed Menu button not showing up in Video Scene on Builds
++ Changed Menu button in Video Scene to say "SKIP"
+
+## **Changelogs 4-7-22pm CST**
+Wasn't keeping track of anything I did aside from removing the video scene.
+I added cheat codes which is pretty cool.
