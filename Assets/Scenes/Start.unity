@@ -757,7 +757,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   translationName: MissedNotes
-  FallbackText: 
+  FallbackText: Missed Notes
 --- !u!222 &238653398
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1515,7 +1515,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 859240535}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
         m_MethodName: RetryButton
         m_Mode: 1
@@ -2360,7 +2360,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   translationName: PercentageHit
-  FallbackText: 
+  FallbackText: Percentage Hit
 --- !u!222 &764092899
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2584,9 +2584,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 859240535}
-        m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
-        m_MethodName: MainMenuLoad
+      - m_Target: {fileID: 690974706}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: MainMenuLoad1
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2634,54 +2634,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 852998357}
   m_CullTransparentMesh: 1
---- !u!1 &859240533
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 859240534}
-  - component: {fileID: 859240535}
-  m_Layer: 5
-  m_Name: MainMenuScript
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &859240534
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 859240533}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1605572182}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &859240535
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 859240533}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec19c8591a7e6c644a40ca534ba9a57f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &875399374
 GameObject:
   m_ObjectHideFlags: 0
@@ -2733,7 +2685,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   translationName: GoodNotesHit
-  FallbackText: 
+  FallbackText: Good Notes Hit
 --- !u!222 &875399377
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3036,7 +2988,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   translationName: NormalNotesHit
-  FallbackText: 
+  FallbackText: Normal Notes Hit
 --- !u!222 &1160336786
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3734,7 +3686,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   translationName: PerfectNotesHit
-  FallbackText: 
+  FallbackText: Perfect Notes Hit
 --- !u!222 &1601014007
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3873,7 +3825,6 @@ RectTransform:
   - {fileID: 2046179000}
   - {fileID: 1894841109}
   - {fileID: 766832846}
-  - {fileID: 859240534}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4778,7 +4729,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   translationName: ResultsText
-  FallbackText: 
+  FallbackText: Results
 --- !u!222 &1971809614
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5030,7 +4981,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   translationName: FinalScore
-  FallbackText: 
+  FallbackText: Final Score
 --- !u!222 &2030347562
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5124,7 +5075,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   translationName: RetryText
-  FallbackText: 
+  FallbackText: RETRY
 --- !u!222 &2037536487
 CanvasRenderer:
   m_ObjectHideFlags: 0

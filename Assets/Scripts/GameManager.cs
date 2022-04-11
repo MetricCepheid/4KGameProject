@@ -1,7 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using SharpConfig;
+using System.IO;
 
 public class GameManager : MonoBehaviour
 {
@@ -166,5 +169,10 @@ public class GameManager : MonoBehaviour
         multiText.text = "Multiplier: x" + currentMultiplier;
 
         missedHits++;
+    }
+
+    public void MainMenuLoad1()
+    {
+        SceneManager.LoadScene("StartMenu");
     }
 }

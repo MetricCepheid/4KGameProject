@@ -91,3 +91,8 @@ CHANGED:
 ## **Changelogs 4-7-22 10:40pm CST**
 Wasn't keeping track of anything I did aside from removing the video scene.
 I added cheat codes which is pretty cool.
+
+## **Changelogs 4-10-22 11:19pm CST**
+Wasn't keeping track again so nothing goes here.
+I'll update it eventually.
+A bunch of shit got added/removed long story short.

@@ -3,14 +3,19 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using System.IO;
+using SharpConfig;
 
 public class Resolution : MonoBehaviour
 {
-    Toggle m_Toggle;
+    private Toggle m_Toggle;
+    public GameObject config;
     public Text m_Text;
 
     void Start()
     {
+        var config = Configuration.LoadFromFile("config.cfg");
+        var section = config["Fullscreen"];
+
         //Fetch the Toggle GameObject
         m_Toggle = GetComponent<Toggle>();
         //Add listener for when the state of the Toggle changes, and output the state
@@ -27,7 +32,7 @@ public class Resolution : MonoBehaviour
     {
         m_Text.text =  "Toggle is : " + m_Toggle.isOn;
 
-        if(m_Toggle == !m_Toggle.isOn)
+        if(!m_Toggle == m_Toggle.isOn)
         {
             Screen.SetResolution(1280, 720, false);
         } else
